@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porfolio 3</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="images/Big-Icon.png" alt="logo" type="image/png">
+    <link rel="stylesheet" href="style.css">
+<script src="config.js" async></script>
+
+</head>
+<body>
+    <header id="navBar">
+        <div id="logo"><span>#DCS</span>portfolio</div>
+        <div class="linkNetwork">
+            <a href= "https://m.facebook.com/nissanniska.kazadi"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/GalileoKazadi45"><i class="fab fa-twitter"></i></a>
+            <a href="https://wa.me/+2432081180" ><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/galil%C3%A9e-kazadi-4112a833b/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Nisan-Galilee-Kazadi"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="actionButton">
+            <div class="themeSwitch">
+                <div>
+                  <i id="LightI" class="fas fa-sun"></i>
+                  <i id="DarkI" class="fas fa-moon" style="display: 
+                     none;"></i>  
+                </div>
+                <div id="switchBtn"><span class="toggle" id="Toggle"></span></div>
+                <div class="switchTheme">
+                    <p id="Light" >Clair</p>
+                    <p id="Dark" style="display: none;">Sombre</p>
+                </div>
+                
+            </div>
+            <div id="MenuButton">
+               <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <main class="heroSection">
+        <section id="home" class="introSection">
+            <div class="sectionDetail">
+                <div class="devInfo">
+                    <p class="introText" style="font-size: 24px;">Salut je suis</p>
+                    <h1 class="devTitle"><span>Nisan-Galilée Kazadi</span> <br> Web Developpeur <br> Front-End <span class="accolade">{</span>sur mésure<span class="accolade">} </span><span class="et">&</span> <br> Back-end <span class="accolade">{</span>en expansion<span class="accolade">}</span> </h1>
+                    <p id="text">
+                        L'idée est simple ,moi j'ai une poche a remplir et une MasterClass a atteindre, vous cependant vous avez un <span>Business</span> a faire tourner,une <span>Image</span> a promouvoir et une <span>clientèle</span> ou une <span>communauté</span> à atteindre et <span>à conserver</span>.Plus loin il vous faudrait <span>automatiser</span> des taches et allèger la <span>Gestion</span> et avoir un historique établi en templs réel d'ou vous avez besoin d'un alier qui vous apporte une <span>touche numerique</span>...
+                    </p>
+                    <div class="links">
+                       <button><a href="#contact" class="">Commander un projet      
+                          </a>        <i class="fas far fa-credit-card"></i></button>
+                    <button><a href="images/Nisan-Galiléé Tshimanga Kazadi  CV.pdf" class="">Telecharger Mon CV</a>  <i class="fas fa-download"></i></button> 
+                    </div>
+                    
+                </div>
+                <div class="devImage">
+                    <span></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <img src="images/dcsprofile2.png" alt="profile">
+                </div>
+                <div class="devRealisation">
+                    <div class="realisationDetail">
+                        <div class="experience">
+                            <h4>1+</h4>
+                            <p>Année d'expéerience</p>
+                        </div>
+                        <div class="projet">
+                            <h4>5+</h4>
+                            <p>Projets Achevés</p>
+                        </div>
+                        <div class="client">
+                            <h4>90%</h4>
+                            <p>Clients satisfait</p>
+                        </div>
+                    </div>
+                </div>
+                <nav id="navMenu">
+                    <ul class="menuList">
+                        <a href="#home"><li class="item" onclick="changeStyle(this)"><i class="fas fa-home"></i> Acceuil</li></a>
+                        <a href="#about"><li class="item" onclick="changeStyle(this)"><i class="fas fa-user"></i> À propos </li></a>
+                        <a href="#service"><li class="item" onclick="changeStyle(this)"><i class="fas fas fa-tools"></i> Service</li></a>
+                        <a href="#skills"><li class="item" onclick="changeStyle(this)"><i class="fas fa-database"></i> Skills</li></a>
+                        <a href="#portfolio"><li class="item" onclick="changeStyle(this)"><i class="fas fa-briefcase"></i> Portfolio</li></a>
+                        <a href="#testimoniale"><li class="item" onclick="changeStyle(this)"><i class="fas far fa-comment-dots"></i> Notes</li></a>
+                        <a href="#contact"><li class="item" onclick="changeStyle(this)"><i class="fas fa-message"></i> Contact</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section id="about" class="aboutSection">
+            <div class="devAbout">
+                <div class="devAboutLeft">
+                    <h4>A propos de Moi</h4>
+                    <h2>Apporteur des <span>Solutions à vos problemes </span>proffesionnel, grâce à des productions Webs & Digitales</h2>
+                    <p>Curieux et créatif, avec une vrai passion pour les expériences digitales pensées;j'aime créer des sites a la fois esthétiquex rapids et facilmes à utiliser. Chaque ligne de code écrite donne vie à vos idées et vous rapproche de votre objectif.</p>
+                    <div class="competence">
+                        <h6><i class="fas fas fa-check"></i> UX/UI & Design</h6>
+                        <h6><i class="fas fa-check"></i>  Marketing Digital</h6>
+                        <h6><i class="fas fa-check"></i> Development site Web </h6>
+                        <h6><i class="fas fa-check"></i> Development app Web</h6>
+                    </div>
+                    <div class="aboutContact">
+                        <div class="contactDetail">
+                            <i class="fas fas fab far fa-envelope"></i>
+                            <div class="">
+                                <p>Mon Email:</p>
+                                <a href="mailto:galileokazadi45@gmail.com" style="text-decoration: none;"><p>galileokazadi45@gmail.com</p></a>
+                            </div>
+                        </div>
+                        <div class="contactDetail">
+                            <i class="fas fa-phone"></i>
+                            <div class="">
+                                <p>Contactez moi au:</p>
+                                <a href="tel: +243 84 208 11 80" style="text-decoration: none;"><p>+243 84 208 11 80</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="devAboutRight">
+                    <div class="cicle">
+                        <p><span>Del </span><span> Cultura Señor</span></p>
+                    </div>
+                    <div class="aboutImage"><img src="images/Big-Icon.png" alt="profile"></div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="resumeSection">
+            <div class="devResume">
+                <div class="starLogo"><img src="images/Big-Icon.png" alt="star"></div>
+                <div class="resumeContent">
+                   <h4>Un resumé de Mon Parcours</h4>
+                   <h2>De l'experience acquise dans la<span> quête des solutions </span>aux problemes client</h2>
+                   <div class="parcourtExperience">
+                    <div class="parcourtLeft">
+                        <div class="parcourtDetail">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <div>
+                                <h5>2021 - Present</h5>
+                                <p>Lead Product Designer</p>
+                                <p>Freelance</p> 
+                            </div>
+                        </div>
+                        <div class="parcourtDetail">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <div>
+                                <h5>2018 - 2021</h5>
+                                <p>Senior Product Designer</p>
+                                <p>Linkedin</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="parcourtRight">
+                        <div class="parcourtDetail">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <div>
+                               <h5>2016 - 2018</h5>
+                               <p>Junior UX/UI Designer</p>
+                               <p>Webflow</p>  
+                            </div> 
+                        </div>
+                        <div class="parcourtDetail">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <div></div>
+                               <h5>2014 - 2016</h5>
+                               <p>Graphics Designer</p>
+                               <p>Webflow</p> 
+                            </div>   
+                        </div>
+                    </div>
+                   </div> 
+                </div>
+            </div>
+        </section> -->
+        <section id="service" class="serviceSection">
+            <div class="devService">
+                <h4>Mes service phrares</h4>
+                <h4 id="imposter">Mes service phrares</h4>
+                <h2>Mon <span>Service Spécial </span>Pour le Developement de votre entreprise</h2>
+                <div class="serviceDetail">
+                    <div class="serviceCard">
+                        <span>01</span>
+                        <div>
+                            <h4>Création des site vitrines</h4>
+                            <p>Des sites élégants, performant et responsive pour présenter votre activité</p>
+                        </div>
+                    </div>
+                    <div class="serviceCard">
+                        <span>02</span>
+                        <div>
+                            <h4>Optimisations des performances Web </h4>
+                            <p>Pour un chargement rapide, un meilleur SEO et une expérience utilisateur optimale</p>
+                        </div>
+                    </div>
+                    <div class="serviceCard">
+                        <span>03</span>
+                        <div>
+                            <h4>Design responsive adaptatif</h4>
+                            <p>Votre site et votre App affiche parfaitement sous tout les écrans: mobile, tablette, et ordianteur</p>
+                        </div>
+                    </div>
+                    <div class="serviceCard">
+                        <span>04</span>
+                        <div>
+                            <h4>Hebergement et Mise en ligne</h4>
+                            <p>Un acccompagnement complet pour publier votre site ,avec un hébergement fiable et sécurisé</p>
+                        </div>
+                    </div>
+                    <div class="serviceCard">
+                        <span>05</span>
+                        <div>
+                            <h4>Maintenance et mise à jour </h4>
+                            <p>Je reste disponible pour faire évoluer votre site, le maintenir à jour et assurer sa stabilté</p>
+                        </div>
+                    </div>
+                    <div class="serviceCard">
+                        <span>06</span>
+                        <div>
+                            <h4>Refonte de site existant</h4>
+                            <p>Donnez un coup de neuf à un site Viellisant avec un design moderne et unenstructure optimisé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skillsSection">
+            <div class="devSkills">
+                <div class="devSkillsLeft">
+                    <h4>Mes Competences</h4>
+                    <h2>Explorons Ensemble mes <span>Competences & Stack</span></h2>
+                    <p>De l'interface utilisateur à l'optimisation des performances, je travaille avec des technologies de pointe pour garantir un resultat de qualité, depuis les base pure aux frameworks!</p>
+                    <button> Voir Plus ></button>
+                </div>
+                <div class="devSkillsRight">
+                    <div class="stackSkills">
+                        <div class="stackCard">
+                            <img src="images/html.png" alt="logiciel">
+                            <h5>HTML5</h5>
+                            <p>95%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/css.png" alt="logiciel">
+                            <h5>CSS3</h5>
+                            <p>90%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/javascript.png" alt="logiciel">
+                            <h5>JavaScript</h5>
+                            <p>65%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/wordpress.png" alt="logiciel">
+                            <h5>WordPress</h5>
+                            <p>40%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/reactNative.png" alt="logiciel">
+                            <h5>React</h5>
+                            <p>10%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/tailwindcss.png" alt="logiciel">
+                            <h5>TailwindCSS</h5>
+                            <p>40%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/nodejs.png" alt="logiciel">
+                            <h5>Node.js</h5>
+                            <p>60%</p>
+                        </div>
+                        <div class="stackCard">
+                            <img src="images/mongoDB.png" alt="logiciel">
+                            <h5>MongoDB</h5>
+                            <p>60%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="workSection">
+            <div class="devProjects">
+                <h4 style="margin-bottom: 25px;">Mes Projets</h4>
+                <h4 id="imposter2">Mes Projets</h4>
+                <h2>Explorons quelques uns de mes  <span>Projets</span></h2>
+                <div class="projectsDetail">
+                    <div class="projectContent">
+                        <div class="projectImage"><img src="images/acceuilEcole.png" alt="image"></div>
+                        <div class="projectdetail">
+                            <h5>Ecole en ligne</h5>
+                            <h3>Site web Responsive</h3>
+                            <p> Pour ce premier projet, j’ai conçu un site vitrine dédié à la présentation d’une école en ligne. L’objectif était de mettre en valeur l’offre pédagogique, les formations disponibles et les atouts de l’établissement, tout en offrant un accès simple aux fonctionnalités d’inscription et de connexion. J’ai structuré les pages pour guider l’utilisateur dans la découverte des programmes, avec des blocs dédiés aux témoignages d’anciens élèves et aux tarifs. Le formulaire d’inscription redirige vers l’application principale, mais cette prestation reste indépendante pour garantir une maintenance et une évolution flexibles du site vitrine. Résultat : un outil marketing clair et attractif, qui augmente de 40 % le taux de demandes d’informations.</p>
+                        </div>
+                        <i class="fas fa-arrow-top-left"></i>
+                    </div>
+                    <div class="projectContent">
+                        <div class="projectdetail">
+                            <h5>Gestion d'Ecole</h5>
+                            <h3>Application Web Responsive</h3>
+                            <p> Le deuxième projet consistait à développer une application métier complète pour la gestion interne de l’école. J’ai mis en place un rôle « Admin » (préfet) disposant des droits de validation des inscriptions, de l’ajout d’élèves et d’enseignants, et du suivi des paiements et des plannings. Chaque élève et chaque enseignant bénéficie également d’un dashboard personnalisé : l’un pour consulter ses cours, son historique de paiement et ses échéances, l’autre pour gérer ses classes, publier des ressources et suivre les progrès. J’ai intégré des workflows de notification automatique (inscription validée, rappel de paiement, changement d’emploi du temps) pour fluidifier la communication entre l’administration, les professeurs et les familles. Ce système a permis de réduire de 60 % le temps de traitement administratif.</p>
+                            <i class="fas fa-arrow-top-left"></i>
+                        </div>
+                        <div class="projectImage"><img src="images/gestionEcole.png" alt="image"></div>
+                    </div>
+                    <div class="projectContent">
+                        <div class="projectImage"><img src="images/Agency.png" alt="image"></div>
+                        <div class="projectdetail">
+                            <h5>E-commerce</h5>
+                            <h3>site web et App web responsive des services en ligne</h3>
+                            <p>Pour ce troisième projet,
+                                j’ai élaboré une template e‑commerce clé en main, conçue pour la vente de
+                                produits et de services. L’interface présente un catalogue organisé en
+                                catégories, un moteur de recherche instantané et un système de filtres
+                                avancés. J’ai intégré un panier dynamique, un tunnel de commande simplifié
+                                et plusieurs options de paiement sécurisées (carte bancaire, PayPal). La
+                                template inclut aussi une gestion des stocks et des promotions, ainsi qu’un
+                                espace client pour consulter l’historique de commandes et gérer ses retours.
+                                Le résultat est une solution prête à déployer, permettant aux entreprises de
+                                lancer rapidement leur boutique en ligne et d’augmenter leur chiffre
+                                d’affaires dès le premier mois</p>
+                            <i class="fas fa-arrow-top-left"></i>
+                        </div>
+                    </div>
+                    <div class="projectContent">
+                       <div class="projectdetail">
+                           <h5>E-Services</h5>
+                           <h3>site Web responsive de service </h3>
+                           <p>Ce projet visait à créer
+                            un site vitrine orienté « commande de services techniques » (audit,
+                            maintenance, développement sur mesure). J’ai conçu un parcours utilisateur
+                            fluide : découverte des offres, sélection des prestations, puis connexion ou
+                            inscription pour finaliser la commande. Le site intègre un configurateur de
+                            services (durée, options, formules) et un espace client pour suivre
+                            l’avancement de sa demande. Côté back‑office, l’équipe peut recevoir et
+                            traiter les commandes, échanger avec le client via un chat intégré et
+                            planifier les interventions. Cette solution a permis de professionnaliser le
+                            processus de commande et d’augmenter le taux de conversion de 25 %.</p>
+                           <i class="fas fa-arrow-top-left"></i>
+                       </div>
+                       <div class="projectImage"><img src="images/Hik.png" alt="image"></div>
+                   </div>
+                   <div class="projectContent">
+                       <div class="projectImage"><img src="images/porfolio2.png" alt="image"></div>
+                       <div class="projectdetail">
+                           <h5>Portfolio</h5>
+                           <h3 style="width: 300px; align-items: start;">Site web vitrine de presentant; Votre personne & Votre entité</h3>
+                           <p>
+                            Mon propre portfolio a été pensé comme une
+                            vitrine de mes compétences et de mes réalisations. J’y présente mes projets
+                            phares, mon parcours, mes domaines d’expertise et les témoignages de mes
+                            clients. J’ai ajouté des sections interactives (carrousel d’images,
+                            animations au scroll) pour illustrer mon sens du détail et ma maîtrise des
+                            interfaces modernes. L’objectif est de rassurer le visiteur, de lui montrer
+                            concrètement ce que je suis capable de réaliser, et de l’inciter à me
+                            contacter. Grâce à ce portfolio, j’ai constaté une augmentation de 50 % des
+                            demandes de devis directement issues de la page « Contact ».
+                           </p> 
+                           <i class="fas fa-arrow-top-left"></i>
+                       </div>
+                   </div>
+                   <div class="projectContent">
+                       <div class="projectdetail">
+                           <h5>E-Reservations</h5>
+                           <h3 style="width: 300px; align-items: start;">Site web et Application de reservation de mises en beauté </h3>
+                           <p> Enfin, j’ai développé un
+                            site de réservation pour un institut de beauté. Côté client, l’utilisateur
+                            peut consulter le catalogue des prestations (soins, coiffure, maquillage),
+                            choisir un créneau horaire et gérer ses réservations depuis son espace
+                            personnel. Côté administration, l’équipe dispose d’un back‑office pour
+                            confirmer, modifier ou annuler les rendez‑vous, gérer les plannings des
+                            intervenants et publier des annonces ou articles sur le blog. J’ai également
+                            implémenté un système de notifications par e‑mail et SMS pour rappeler les
+                            rendez‑vous et fidéliser la clientèle. Cette plateforme a permis de diviser
+                            par deux les appels téléphoniques de prise de rendez‑vous et d’améliorer la
+                            satisfaction client grâce à un parcours
+                           <i class="fas fa-arrow-top-left"></i>
+                       </div>
+                       <div class="projectImage"><img src="images/katglamour.png" alt="image"></div>
+                   </div>
+                    </div>
+                   
+                    <button> Voir + de Projets > </button>
+                </div>
+            </div>
+        </section>
+        <section id="testimoniale" class="testimonialSection">
+            <div class="devFeedback">
+                <div class="feedbackIntro">
+                    <h4>Témoignages Client</h4>
+                    <h2>Nous avons plus de 5 <span>Temoignages positif </span>de nos Clients</h2>
+                    <p> Ils m'ont fait confiance ; Decouvrez ce qui dit tant par mes colaborateurs que par mes client,leurs retours vous en dis long sur la proactivité et la riguer de mes service.</p>
+                    <div>
+                      <button>←</button>
+                      <button>→</button>  
+                    </div>
+                    
+                </div>
+                <div class="clientFeeds">
+                    <div class="feedCard">
+                        <div class="profile"><span>''</span><img src="images/wordpress.png" alt="client"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corrupti id dignissimos odio aliquam recusandae nihil harum incidunt, quis, aspernatur ut dolores! Aliquid rerum deserunt veritatis? Reprehenderit quod debitis officia!</p>
+                        <h5>Rodolfo E. Shannon</h5>
+                        <h6>CEO & Founder</h6>
+                    </div>
+                    <div class="feedCard">
+                        <div class="profile"> <span>''</span><img src="images/wordpress.png" alt="client"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corrupti id dignissimos odio aliquam recusandae nihil harum incidunt, quis, aspernatur ut dolores! Aliquid rerum deserunt veritatis? Reprehenderit quod debitis officia!</p>
+                        <h5>Rodolfo E. Shannon</h5>
+                        <h6>CEO & Founder</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="getInTouchSection">
+            <div class="devContact">
+                <div class="devContactLeft">
+                    <h4>Entrons en Contact</h4>
+                    <h4 id="imposter3">Entrons en Contact</h4>
+                    <h2>Parlons de votre <span>Prochain Projet</span></h2>
+                    <p>Parlons-en et construisons ensemble une solution sur mesure,performanrte et evolutive. Puisque votre projet mérite une présence en ligne à la hauteur de vos ambitions !</p>
+                    <div class="devCompetence">
+                        <p><i class="fas fas fa-check-circle"></i> 1+ Années d'expérience</p> 
+                        <p><i class="fas fas fa-check-circle"></i> Web Developpeur proffesionnel</p>
+                        <p><i class="fas fas fa-check-circle"></i> Créateur des App Web</p>
+                        <p><i class="fas fas fa-check-circle"></i>  Designer Responsive </p>
+                    </div>
+                </div>
+                <div class="devContactRight">
+                        <form action="">
+                            <div class="inputSection">
+                                <div id="form">
+                                    <label for="name">Nom Complet<span>*</span></label>
+                                    <input type="text" name="" id="" placeholder="Del Cultura Señor">
+                                </div>
+                                <div id="form">
+                                    <label for="name">Adress E-mail<span>*</span></label>
+                                    <input type="text" name="" id="" placeholder="galileokazadi@gmail.com">
+                                </div>
+                            </div>
+                            <div class="inputSection">
+                                <div id="form">
+                                    <label for="tel">Numero de téléphone<span>*</span></label>
+                                    <input type="text" name="" id="" placeholder="+243 84 208 11 80">
+                                </div>
+                                <div id="form">
+                                  <label for="Email">Objet</label>
+                                  <input type="text" name="" id="" placeholder="Besoin d'un site...">
+                                </div>
+                            </div>
+                            <label for="Message" style="font-weight: 600; margin-bottom: -20px;">Message</label>
+                            <textarea name="" id="" placeholder="Ecrivez votre message..."></textarea>
+                            <button> Soumettre le message > </button>
+                        </form>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerTop">
+            <div id="logo"><span>#DCS</span>portfolio</div>
+            <div class="quickLink">
+                <h3>Quick link</h3>
+                <ul class="menuList">
+                    <li class="item"> <a href="#home">Acceuil</a></li>
+                    <li class="item"> <a href="#about">A propos</a></li>
+                    <li class="item"> <a href="#service">Service</a></li>
+                    <li class="item"> <a href="#skills">Skills</a></li>
+                    <li class="item"> <a href="#porfolio">Portfolio</a></li>
+                    <li class="item"> <a href="#testimoniale">Notes</a></li>
+                    <li class="item"> <a href="#contact">Contact</a></li>
+                </ul>
+                <form action="" class="search">
+                    <input type="email">
+                    <button type="submit">S'inscrire > </button>
+                </form>
+            </div>
+            <div class="Address">
+                <h3>Address</h3>
+                <p><i class="fas fas fa-map-signs"></i> 233 Avenue Ganaketi, Kinshasa/Bumbu</p>
+                <p><i class="fas fas fa-mail-bulk"></i> galileokazadi45@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +243 84 208 11 80</p>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> , <span><a href="https://www.linkedin.com/in/galil%C3%A9e-kazadi-4112a833b/" style="text-decoration: none;color: #c9f31d;">Nisan-Galilée Kazadi</a></span> Tout droit Réservé </p>
+            <button ><a href="#home">^</a></button>
+            <ul class="Links">
+                <a href="https://m.facebook.com/nissanniska.kazadi"><li class="item"> Facebook</li></a>
+                <a href="https://x.com/GalileoKazadi45"><li class="item"> Twitter</li></a>
+                <a href="https://wa.me/+243842081180"><li class="item"> WhatsApp</li></a>
+                <a href="https://www.linkedin.com/in/galil%C3%A9e-kazadi-4112a833b/"><li class="item"> Linkedin</li></a>  
+                <a href="https://github.com/Nisan-Galilee-Kazadi"><li class="item"> GitHub</li></a>  
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
