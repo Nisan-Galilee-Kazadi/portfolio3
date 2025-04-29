@@ -2373,7 +2373,7 @@ body.active .devResume .resumeContent .parcourtExperience .parcourtDetail {
 }
 
 
-@media screen and (min-width:480px) and (max-width: 720px) {
+@media screen and (max-width:480px) {
       *{
         max-width: 480px;
         margin: 0;
